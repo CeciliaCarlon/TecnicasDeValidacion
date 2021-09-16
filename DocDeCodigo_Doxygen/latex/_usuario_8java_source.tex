@@ -1,0 +1,45 @@
+\hypertarget{_usuario_8java_source}{}\doxysection{Usuario.\+java}
+\label{_usuario_8java_source}\index{DocDeCodigo/src/restaurant/Usuario.java@{DocDeCodigo/src/restaurant/Usuario.java}}
+\mbox{\hyperlink{_usuario_8java}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00001}00001 \textcolor{keyword}{package }restaurant;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00002}00002 \textcolor{keyword}{import} java.util.Date;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00003}00003 \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00004}00004 \textcolor{comment}{@brief Esta clase es la encargada de contener los datos de los usuarios así como tambien los}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00005}00005 \textcolor{comment}{metodos cargarCredito (para incrementar el credito de este) y descontarSaldo (para disminuir el credito)}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00006}00006 \textcolor{comment}{*/}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00007}\mbox{\hyperlink{classrestaurant_1_1_usuario}{00007}} \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{classrestaurant_1_1_usuario}{Usuario}} \{}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00008}00008 \textcolor{keyword}{static} \textcolor{keywordtype}{int} nextID;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00009}00009 \textcolor{keywordtype}{int} id;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00010}00010 String nombreYApellido;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00011}00011 \textcolor{keywordtype}{int} tipoUsuario;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00012}00012 \textcolor{keywordtype}{float} saldoCuenta;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00013}00013 Date ultimaRecarga;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00014}00014 String email;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00015}\mbox{\hyperlink{classrestaurant_1_1_usuario_a976174d8837308f58d8be96b62af9274}{00015}} \textcolor{keyword}{public} \mbox{\hyperlink{classrestaurant_1_1_usuario_a976174d8837308f58d8be96b62af9274}{Usuario}}(String nombreYApellido, \textcolor{keywordtype}{int} tipoUsuario, \textcolor{keywordtype}{float} saldoCuenta,String email) \{}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00016}00016     super();}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00017}00017     this.nombreYApellido = nombreYApellido;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00018}00018     this.tipoUsuario = tipoUsuario;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00019}00019     this.saldoCuenta = saldoCuenta;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00020}00020     this.email=email;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00021}00021 \}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00022}00022 \textcolor{comment}{//@param del tipo float y es la cantidad a incrementar del atributo saldoCuenta}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00023}\mbox{\hyperlink{classrestaurant_1_1_usuario_a61e318e81146f727d7f797ebe0b0257f}{00023}} \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_usuario_a61e318e81146f727d7f797ebe0b0257f}{cargarCredito}}(\textcolor{keywordtype}{float} cuanto) \{}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00024}00024     saldoCuenta+=cuanto;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00025}00025 }
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00026}00026 \}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00027}00027 \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00028}00028 \textcolor{comment}{@param del tipo float y es la cantidad a descontar del atributo saldoCuenta}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00029}00029 \textcolor{comment}{@return retorna el saldoCuenta si esta no queda en valor negativo, si es así}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00030}00030 \textcolor{comment}{tira un @class SinSaldoException}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00031}00031 \textcolor{comment}{*/}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00032}00032 \textcolor{keywordtype}{float} descontarSaldo(\textcolor{keywordtype}{float} cuanto) \textcolor{keywordflow}{throws} \mbox{\hyperlink{classrestaurant_1_1_sin_saldo_exception}{SinSaldoException}} \{}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00033}00033     \textcolor{keywordflow}{if}((saldoCuenta-\/cuanto)<0) \textcolor{keywordflow}{throw} \textcolor{keyword}{new} \mbox{\hyperlink{classrestaurant_1_1_sin_saldo_exception}{SinSaldoException}}();}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00034}00034     \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00035}00035         saldoCuenta-\/= cuanto;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00036}00036     \textcolor{keywordflow}{return} saldoCuenta;}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00037}00037 }
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00038}00038 \}}
+\DoxyCodeLine{\Hypertarget{_usuario_8java_source_l00039}00039 \}}
+
+\end{DoxyCode}

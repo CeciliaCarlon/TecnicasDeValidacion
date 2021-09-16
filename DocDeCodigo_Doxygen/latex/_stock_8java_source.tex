@@ -1,0 +1,33 @@
+\hypertarget{_stock_8java_source}{}\doxysection{Stock.\+java}
+\label{_stock_8java_source}\index{DocDeCodigo/src/restaurant/Stock.java@{DocDeCodigo/src/restaurant/Stock.java}}
+\mbox{\hyperlink{_stock_8java}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00001}00001 \textcolor{keyword}{package }restaurant;}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00002}00002 }
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00003}00003 \textcolor{keyword}{import} java.util.ArrayList;}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00004}00004 \textcolor{keyword}{import} java.util.List;}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00005}00005 \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00006}00006 \textcolor{comment}{@brief La clase se encarga de administrar el stock de @class Producto}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00007}00007 \textcolor{comment}{*/}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00008}\mbox{\hyperlink{classrestaurant_1_1_stock}{00008}} \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{classrestaurant_1_1_stock}{Stock}} \{}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00009}00009 List<Producto> stock;}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00010}\mbox{\hyperlink{classrestaurant_1_1_stock_a798ca6281e024cecd74dfc358aa66044}{00010}} \textcolor{keyword}{public} \mbox{\hyperlink{classrestaurant_1_1_stock_a798ca6281e024cecd74dfc358aa66044}{Stock}}() \{}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00011}00011     stock=\textcolor{keyword}{new} ArrayList<Producto>();}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00012}00012 \}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00013}00013 \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00014}00014 \textcolor{comment}{@param del tipo @class Producto y del tipo int}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00015}00015 \textcolor{comment}{@brief se encarga de fijarse si hay stock del producto que se desea agregar. Si lo hay}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00016}00016 \textcolor{comment}{incrementa el stock de este, de lo contrario lo agrega al array y le setea la cantidad}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00017}00017 \textcolor{comment}{*/}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00018}\mbox{\hyperlink{classrestaurant_1_1_stock_a2893d04ee9d12326e8f2a1f2807b3eb6}{00018}} \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_stock_a2893d04ee9d12326e8f2a1f2807b3eb6}{agregar}}(\mbox{\hyperlink{classrestaurant_1_1_producto}{Producto}} p, \textcolor{keywordtype}{int} cantidad) \{}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00019}00019     \textcolor{keywordflow}{if}(stock.indexOf(p)>=0)}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00020}00020         p.\mbox{\hyperlink{classrestaurant_1_1_producto_ab4b381133071cc6f54337ca8d17cd5ed}{setStock}}(p.\mbox{\hyperlink{classrestaurant_1_1_producto_a1be8fe746748bcd8a3320d9c582a40a5}{getStock}}()+cantidad);}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00021}00021     \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00022}00022         p.\mbox{\hyperlink{classrestaurant_1_1_producto_ab4b381133071cc6f54337ca8d17cd5ed}{setStock}}(cantidad);}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00023}00023         stock.add(p);}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00024}00024     \}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00025}00025 }
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00026}00026 \}}
+\DoxyCodeLine{\Hypertarget{_stock_8java_source_l00027}00027 \}}
+
+\end{DoxyCode}

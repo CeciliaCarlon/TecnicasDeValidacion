@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classrestaurant_1_1_producto" kind="class" language="Java" prot="public">
+    <compoundname>restaurant::Producto</compoundname>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classrestaurant_1_1_producto_1a2f1fe17a3db491face4196c35a5a00ee" prot="package" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int restaurant.Producto.nextID</definition>
+        <argsstring></argsstring>
+        <name>nextID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="6" column="12" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classrestaurant_1_1_producto_1ab4f91e704885f1f7ad203c45d95718ea" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int restaurant.Producto.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="7" column="5" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_producto_1a14d02f15b29f2b3364228ad6665def38" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int restaurant.Producto.stock</definition>
+        <argsstring></argsstring>
+        <name>stock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="8" column="5" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_producto_1a5c01effbe13c776666080799531391a4" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String restaurant.Producto.nombre</definition>
+        <argsstring></argsstring>
+        <name>nombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="9" column="8" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_producto_1a2b06ba3c656275b6e0f50904e0e7cfd8" prot="package" static="no" mutable="no">
+        <type>float</type>
+        <definition>float restaurant.Producto.precioCompra</definition>
+        <argsstring></argsstring>
+        <name>precioCompra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="10" column="7" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrestaurant_1_1_producto_1acddfdec504d318cec91130f8a97cacf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>restaurant.Producto.Producto</definition>
+        <argsstring>(String nombre, int stock)</argsstring>
+        <name>Producto</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="11" column="8" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_producto_1a1be8fe746748bcd8a3320d9c582a40a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int restaurant.Producto.getStock</definition>
+        <argsstring>()</argsstring>
+        <name>getStock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="16" column="12" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="16" bodyend="18"/>
+        <referencedby refid="classrestaurant_1_1_stock_1a2893d04ee9d12326e8f2a1f2807b3eb6" compoundref="_stock_8java" startline="18" endline="26">restaurant.Stock.agregar</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_producto_1ab4b381133071cc6f54337ca8d17cd5ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.Producto.setStock</definition>
+        <argsstring>(int stock)</argsstring>
+        <name>setStock</name>
+        <param>
+          <type>int</type>
+          <declname>stock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="19" column="13" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="19" bodyend="21"/>
+        <referencedby refid="classrestaurant_1_1_stock_1a2893d04ee9d12326e8f2a1f2807b3eb6" compoundref="_stock_8java" startline="18" endline="26">restaurant.Stock.agregar</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_producto_1a1d921157bedc08d5ef65d82df4a6084e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String restaurant.Producto.getNombre</definition>
+        <argsstring>()</argsstring>
+        <name>getNombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="22" column="15" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_producto_1ac6282f9d4b70206eb890bd53ac5b1c66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.Producto.setNombre</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>setNombre</name>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="25" column="13" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_producto_1a6767cb97caddf12d38869bafa98b89d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float restaurant.Producto.getPrecioCompra</definition>
+        <argsstring>()</argsstring>
+        <name>getPrecioCompra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="28" column="14" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_producto_1a1e6e367627b2cc021682612dbead9bf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.Producto.setPrecioCompra</definition>
+        <argsstring>(float precioCompra)</argsstring>
+        <name>setPrecioCompra</name>
+        <param>
+          <type>float</type>
+          <declname>precioCompra</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Producto.java" line="31" column="13" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="31" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DocDeCodigo/src/restaurant/Producto.java" line="5" column="7" bodyfile="DocDeCodigo/src/restaurant/Producto.java" bodystart="5" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classrestaurant_1_1_producto_1a1d921157bedc08d5ef65d82df4a6084e" prot="public" virt="non-virtual"><scope>restaurant::Producto</scope><name>getNombre</name></member>
+      <member refid="classrestaurant_1_1_producto_1a6767cb97caddf12d38869bafa98b89d7" prot="public" virt="non-virtual"><scope>restaurant::Producto</scope><name>getPrecioCompra</name></member>
+      <member refid="classrestaurant_1_1_producto_1a1be8fe746748bcd8a3320d9c582a40a5" prot="public" virt="non-virtual"><scope>restaurant::Producto</scope><name>getStock</name></member>
+      <member refid="classrestaurant_1_1_producto_1ab4f91e704885f1f7ad203c45d95718ea" prot="package" virt="non-virtual"><scope>restaurant::Producto</scope><name>id</name></member>
+      <member refid="classrestaurant_1_1_producto_1a2f1fe17a3db491face4196c35a5a00ee" prot="package" virt="non-virtual"><scope>restaurant::Producto</scope><name>nextID</name></member>
+      <member refid="classrestaurant_1_1_producto_1a5c01effbe13c776666080799531391a4" prot="package" virt="non-virtual"><scope>restaurant::Producto</scope><name>nombre</name></member>
+      <member refid="classrestaurant_1_1_producto_1a2b06ba3c656275b6e0f50904e0e7cfd8" prot="package" virt="non-virtual"><scope>restaurant::Producto</scope><name>precioCompra</name></member>
+      <member refid="classrestaurant_1_1_producto_1acddfdec504d318cec91130f8a97cacf5" prot="public" virt="non-virtual"><scope>restaurant::Producto</scope><name>Producto</name></member>
+      <member refid="classrestaurant_1_1_producto_1ac6282f9d4b70206eb890bd53ac5b1c66" prot="public" virt="non-virtual"><scope>restaurant::Producto</scope><name>setNombre</name></member>
+      <member refid="classrestaurant_1_1_producto_1a1e6e367627b2cc021682612dbead9bf4" prot="public" virt="non-virtual"><scope>restaurant::Producto</scope><name>setPrecioCompra</name></member>
+      <member refid="classrestaurant_1_1_producto_1ab4b381133071cc6f54337ca8d17cd5ed" prot="public" virt="non-virtual"><scope>restaurant::Producto</scope><name>setStock</name></member>
+      <member refid="classrestaurant_1_1_producto_1a14d02f15b29f2b3364228ad6665def38" prot="package" virt="non-virtual"><scope>restaurant::Producto</scope><name>stock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

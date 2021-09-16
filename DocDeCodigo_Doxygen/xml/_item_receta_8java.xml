@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_item_receta_8java" kind="file" language="Java">
+    <compoundname>ItemReceta.java</compoundname>
+    <innerclass refid="classrestaurant_1_1_item_receta" prot="public">restaurant::ItemReceta</innerclass>
+    <innernamespace refid="namespacerestaurant">restaurant</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">restaurant;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classrestaurant_1_1_item_receta" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classrestaurant_1_1_item_receta" kindref="compound">ItemReceta</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><ref refid="classrestaurant_1_1_producto" kindref="compound">Producto</ref><sp/>p;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cantidad;</highlight></codeline>
+<codeline lineno="6" refid="classrestaurant_1_1_item_receta_1ab97cdc300fc81fcda77292c9cde8a425" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_item_receta_1ab97cdc300fc81fcda77292c9cde8a425" kindref="member">ItemReceta</ref>(<ref refid="classrestaurant_1_1_producto" kindref="compound">Producto</ref><sp/>p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cantidad)<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>this.p<sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>this.cantidad<sp/>=<sp/>cantidad;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DocDeCodigo/src/restaurant/ItemReceta.java"/>
+  </compounddef>
+</doxygen>

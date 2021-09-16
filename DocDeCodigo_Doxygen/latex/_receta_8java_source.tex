@@ -1,0 +1,54 @@
+\hypertarget{_receta_8java_source}{}\doxysection{Receta.\+java}
+\label{_receta_8java_source}\index{DocDeCodigo/src/restaurant/Receta.java@{DocDeCodigo/src/restaurant/Receta.java}}
+\mbox{\hyperlink{_receta_8java}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00001}00001 \textcolor{keyword}{package }restaurant;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00002}00002 \textcolor{keyword}{import} java.util.List;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00003}00003 \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00004}00004 \textcolor{comment}{@brief Es la clase encargada de almacenar los datos de la receta. Entre ellos: los ingredientes,}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00005}00005 \textcolor{comment}{el nombre de la receta, el tiempo de coccion y el precio de venta.}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00006}00006 \textcolor{comment}{*/}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00007}\mbox{\hyperlink{classrestaurant_1_1_receta}{00007}} \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{classrestaurant_1_1_receta}{Receta}} \{}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00008}00008     List<ItemReceta> ingredientes;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00009}00009     String nombre;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00010}00010     String tiempoDeCoccion;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00011}00011     \textcolor{keywordtype}{float} precioVenta;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00012}00012     \textcolor{comment}{//@brief metodos set y get de los atributos anteriormente mencionados}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00013}\mbox{\hyperlink{classrestaurant_1_1_receta_a02120e320e61d66e3b23cb2679f9dc7f}{00013}}     \textcolor{keyword}{public} \textcolor{keywordtype}{float} \mbox{\hyperlink{classrestaurant_1_1_receta_a02120e320e61d66e3b23cb2679f9dc7f}{getPrecioVenta}}() \{}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00014}00014         \textcolor{keywordflow}{return} precioVenta;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00015}00015     \}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00016}\mbox{\hyperlink{classrestaurant_1_1_receta_a0fcbbc3ff8df3685760f0b03de7c9492}{00016}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_receta_a0fcbbc3ff8df3685760f0b03de7c9492}{setPrecioVenta}}(\textcolor{keywordtype}{float} precioVenta) \{}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00017}00017         this.precioVenta = precioVenta;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00018}00018     \}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00019}\mbox{\hyperlink{classrestaurant_1_1_receta_abbd53d797e295fbbede4242b89d3fdf0}{00019}}     \textcolor{keyword}{public} String \mbox{\hyperlink{classrestaurant_1_1_receta_abbd53d797e295fbbede4242b89d3fdf0}{getNombre}}() \{}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00020}00020         \textcolor{keywordflow}{return} nombre;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00021}00021     \}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00022}\mbox{\hyperlink{classrestaurant_1_1_receta_ae1b7473de15c4268d248a6787ae840db}{00022}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_receta_ae1b7473de15c4268d248a6787ae840db}{setNombre}}(String nombre) \{}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00023}00023         this.nombre = nombre;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00024}00024     \}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00025}\mbox{\hyperlink{classrestaurant_1_1_receta_a5cbe14f14c6a7a7f742bcddccff1a8bf}{00025}}     \textcolor{keyword}{public} String \mbox{\hyperlink{classrestaurant_1_1_receta_a5cbe14f14c6a7a7f742bcddccff1a8bf}{getTiempoDeCoccion}}() \{}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00026}00026         \textcolor{keywordflow}{return} tiempoDeCoccion;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00027}00027     \}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00028}\mbox{\hyperlink{classrestaurant_1_1_receta_aa5156e5ef0168c21381b0e32e9549046}{00028}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_receta_aa5156e5ef0168c21381b0e32e9549046}{setTiempoDeCoccion}}(String tiempoDeCoccion) \{}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00029}00029         this.tiempoDeCoccion = tiempoDeCoccion;}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00030}00030     \}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00031}00031     \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00032}00032 \textcolor{comment}{    @param del tipo @class ItemReceta}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00033}00033 \textcolor{comment}{    @brief el metodo se encarga de agregar al array ingredientes el item pasado por parametro}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00034}00034 \textcolor{comment}{    */}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00035}\mbox{\hyperlink{classrestaurant_1_1_receta_af16e69b4f9b54acb4e035c34fc91fb4b}{00035}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_receta_af16e69b4f9b54acb4e035c34fc91fb4b}{addIngrediente}}(\mbox{\hyperlink{classrestaurant_1_1_item_receta}{ItemReceta}} i) \{}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00036}00036 }
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00037}00037         ingredientes.add(i);}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00038}00038     \}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00039}00039     \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00040}00040 \textcolor{comment}{    @param del tipo @class Producto y del tipo int}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00041}00041 \textcolor{comment}{    @brief el metodo se encarga de crear un item con los datos pasados por parametro}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00042}00042 \textcolor{comment}{    y luego agregar este al array ingredientes}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00043}00043 \textcolor{comment}{    */}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00044}\mbox{\hyperlink{classrestaurant_1_1_receta_a712db947f66ff8a6f1ffd4ff38169af1}{00044}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_receta_a712db947f66ff8a6f1ffd4ff38169af1}{addIngrediente}}(\mbox{\hyperlink{classrestaurant_1_1_producto}{Producto}} producto, \textcolor{keywordtype}{int} cantidad ) \{}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00045}00045         \mbox{\hyperlink{classrestaurant_1_1_item_receta}{ItemReceta}} item=\textcolor{keyword}{new} \mbox{\hyperlink{classrestaurant_1_1_item_receta}{ItemReceta}}(producto, cantidad);}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00046}00046         ingredientes.add(item);}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00047}00047     \}}
+\DoxyCodeLine{\Hypertarget{_receta_8java_source_l00048}00048 \}}
+
+\end{DoxyCode}

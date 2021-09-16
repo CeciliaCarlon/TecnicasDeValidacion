@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_900352fecfec2ccd0fec88816a00a7a2" kind="dir">
+    <compoundname>DocDeCodigo/src/restaurant</compoundname>
+    <innerfile refid="_admin_ordenes_8java">AdminOrdenes.java</innerfile>
+    <innerfile refid="_item_menu_8java">ItemMenu.java</innerfile>
+    <innerfile refid="_item_pedido_8java">ItemPedido.java</innerfile>
+    <innerfile refid="_item_receta_8java">ItemReceta.java</innerfile>
+    <innerfile refid="_pedido_8java">Pedido.java</innerfile>
+    <innerfile refid="_producto_8java">Producto.java</innerfile>
+    <innerfile refid="_receta_8java">Receta.java</innerfile>
+    <innerfile refid="_sin_saldo_exception_8java">SinSaldoException.java</innerfile>
+    <innerfile refid="_sin_suficientes_ingredientes_exception_8java">SinSuficientesIngredientesException.java</innerfile>
+    <innerfile refid="_stock_8java">Stock.java</innerfile>
+    <innerfile refid="_usuario_8java">Usuario.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DocDeCodigo/src/restaurant/"/>
+  </compounddef>
+</doxygen>

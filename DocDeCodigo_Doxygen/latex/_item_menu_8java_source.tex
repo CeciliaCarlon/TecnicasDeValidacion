@@ -1,0 +1,51 @@
+\hypertarget{_item_menu_8java_source}{}\doxysection{Item\+Menu.\+java}
+\label{_item_menu_8java_source}\index{DocDeCodigo/src/restaurant/ItemMenu.java@{DocDeCodigo/src/restaurant/ItemMenu.java}}
+\mbox{\hyperlink{_item_menu_8java}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00001}00001 \textcolor{keyword}{package }restaurant;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00002}00002 \textcolor{keyword}{import} java.util.List;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00003}00003 }
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00004}\mbox{\hyperlink{classrestaurant_1_1_item_menu}{00004}} \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{classrestaurant_1_1_item_menu}{ItemMenu}} \{}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00005}00005 \textcolor{keyword}{static} \textcolor{keywordtype}{int} nextID;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00006}00006 \textcolor{keywordtype}{int} id;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00007}00007 String nombre;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00008}00008 \textcolor{keywordtype}{float} precio;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00009}00009 \mbox{\hyperlink{classrestaurant_1_1_receta}{Receta}} receta;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00010}00010 String tipo;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00011}\mbox{\hyperlink{classrestaurant_1_1_item_menu_a89e6e8ad148e8088989f215383c5778c}{00011}} \textcolor{keyword}{public} String \mbox{\hyperlink{classrestaurant_1_1_item_menu_a89e6e8ad148e8088989f215383c5778c}{getNombre}}() \{}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00012}00012     \textcolor{keywordflow}{return} nombre;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00013}00013 \}}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00014}\mbox{\hyperlink{classrestaurant_1_1_item_menu_a224a98e724e192f79085ae6eb7dc7e9f}{00014}} \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_item_menu_a224a98e724e192f79085ae6eb7dc7e9f}{setNombre}}(String nombre) \{}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00015}00015     this.nombre = nombre;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00016}00016 \}}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00017}\mbox{\hyperlink{classrestaurant_1_1_item_menu_ae2a90290152ddb469a9c6fa9695958d6}{00017}} \textcolor{keyword}{public} \textcolor{keywordtype}{float} \mbox{\hyperlink{classrestaurant_1_1_item_menu_ae2a90290152ddb469a9c6fa9695958d6}{getPrecio}}() \{}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00018}00018     \textcolor{keywordflow}{return} precio;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00019}00019 \}}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00020}\mbox{\hyperlink{classrestaurant_1_1_item_menu_a4be0440add75d7e56abd5c3ce0df4c12}{00020}} \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_item_menu_a4be0440add75d7e56abd5c3ce0df4c12}{setPrecio}}(\textcolor{keywordtype}{float} precio) \{}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00021}00021     this.precio = precio;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00022}00022 \}}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00023}\mbox{\hyperlink{classrestaurant_1_1_item_menu_a928f4264495bf0f20cf2bc36859b589d}{00023}} \textcolor{keyword}{public} \mbox{\hyperlink{classrestaurant_1_1_receta}{Receta}} \mbox{\hyperlink{classrestaurant_1_1_item_menu_a928f4264495bf0f20cf2bc36859b589d}{getReceta}}() \{}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00024}00024     \textcolor{keywordflow}{return} receta;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00025}00025 \}}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00026}\mbox{\hyperlink{classrestaurant_1_1_item_menu_a130b9cdb5b62d7f360c116949e6d59bf}{00026}} \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_item_menu_a130b9cdb5b62d7f360c116949e6d59bf}{setReceta}}(\mbox{\hyperlink{classrestaurant_1_1_receta}{Receta}} receta) \{}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00027}00027     this.receta = receta;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00028}00028 \}}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00029}\mbox{\hyperlink{classrestaurant_1_1_item_menu_a0aa9591e7f5d8a8eb60c57d553d65b3c}{00029}} \textcolor{keyword}{public} String \mbox{\hyperlink{classrestaurant_1_1_item_menu_a0aa9591e7f5d8a8eb60c57d553d65b3c}{getTipo}}() \{}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00030}00030     \textcolor{keywordflow}{return} tipo;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00031}00031 \}}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00032}\mbox{\hyperlink{classrestaurant_1_1_item_menu_afeafde532a69bd5dc63818e548de16f3}{00032}} \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_item_menu_afeafde532a69bd5dc63818e548de16f3}{setTipo}}(String tipo) \{}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00033}00033     this.tipo = tipo;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00034}00034 \}}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00035}\mbox{\hyperlink{classrestaurant_1_1_item_menu_a958a116f9092965530600ae142463212}{00035}} \textcolor{keyword}{public} \mbox{\hyperlink{classrestaurant_1_1_item_menu_a958a116f9092965530600ae142463212}{ItemMenu}}(String nombre, \textcolor{keywordtype}{float} precio, \mbox{\hyperlink{classrestaurant_1_1_receta}{Receta}} receta, String tipo) \{}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00036}00036     super();}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00037}00037     this.\textcolor{keywordtype}{id}=nextID;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00038}00038     nextID++;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00039}00039     this.nombre = nombre;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00040}00040     this.precio = precio;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00041}00041     this.receta = receta;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00042}00042     this.tipo = tipo;}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00043}00043 \}}
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00044}00044 }
+\DoxyCodeLine{\Hypertarget{_item_menu_8java_source_l00045}00045 \}}
+
+\end{DoxyCode}

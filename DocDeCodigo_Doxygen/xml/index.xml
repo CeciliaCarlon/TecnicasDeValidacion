@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+  <compound refid="classrestaurant_1_1_admin_ordenes" kind="class"><name>restaurant::AdminOrdenes</name>
+    <member refid="classrestaurant_1_1_admin_ordenes_1a3bed960fbe4ce618861972d88b6a27c3" kind="variable"><name>pedidos</name></member>
+    <member refid="classrestaurant_1_1_admin_ordenes_1af8ad00199a4ed61b6c048d6fc2c9509c" kind="function"><name>AdminOrdenes</name></member>
+    <member refid="classrestaurant_1_1_admin_ordenes_1aa30f327cc795f6f5421af8d5a5309c60" kind="function"><name>procesar</name></member>
+    <member refid="classrestaurant_1_1_admin_ordenes_1a4ad7a9e2518aa6490fe111ad229a1563" kind="function"><name>agregar</name></member>
+  </compound>
+  <compound refid="classrestaurant_1_1_item_menu" kind="class"><name>restaurant::ItemMenu</name>
+    <member refid="classrestaurant_1_1_item_menu_1a2db50b024fb340ca625347a8f9218422" kind="variable"><name>nextID</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1a29d5241db900f7ba1a2fee6b9dea90ca" kind="variable"><name>id</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1a981e6e0a283a17be9b184e1291abbfae" kind="variable"><name>nombre</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1a90d4eee0f64e437cbc2563010f2b3369" kind="variable"><name>precio</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1aca78aa9fdb75497c656ceccee60f16c7" kind="variable"><name>receta</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1ac372a00c08e0a2ca2f8cff9a9c772fdf" kind="variable"><name>tipo</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1a89e6e8ad148e8088989f215383c5778c" kind="function"><name>getNombre</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1a224a98e724e192f79085ae6eb7dc7e9f" kind="function"><name>setNombre</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1ae2a90290152ddb469a9c6fa9695958d6" kind="function"><name>getPrecio</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1a4be0440add75d7e56abd5c3ce0df4c12" kind="function"><name>setPrecio</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1a928f4264495bf0f20cf2bc36859b589d" kind="function"><name>getReceta</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1a130b9cdb5b62d7f360c116949e6d59bf" kind="function"><name>setReceta</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1a0aa9591e7f5d8a8eb60c57d553d65b3c" kind="function"><name>getTipo</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1afeafde532a69bd5dc63818e548de16f3" kind="function"><name>setTipo</name></member>
+    <member refid="classrestaurant_1_1_item_menu_1a958a116f9092965530600ae142463212" kind="function"><name>ItemMenu</name></member>
+  </compound>
+  <compound refid="classrestaurant_1_1_item_pedido" kind="class"><name>restaurant::ItemPedido</name>
+    <member refid="classrestaurant_1_1_item_pedido_1a4c4e91b8fb22c33cd65b9f44f6ed93ac" kind="variable"><name>cantidad</name></member>
+    <member refid="classrestaurant_1_1_item_pedido_1a0a67503bf50ff1a70fbfa9ead43c179c" kind="variable"><name>receta</name></member>
+    <member refid="classrestaurant_1_1_item_pedido_1a9c551ab0b8d67b84b007ab5b2624f717" kind="function"><name>getCantidad</name></member>
+    <member refid="classrestaurant_1_1_item_pedido_1af26cfb2d9c9c9d08d94471f642555c5e" kind="function"><name>setCantidad</name></member>
+    <member refid="classrestaurant_1_1_item_pedido_1aca812d80c6ba61537b1cc3553293d217" kind="function"><name>getReceta</name></member>
+    <member refid="classrestaurant_1_1_item_pedido_1ab4b7fa6244e6b782167b54827f5a79f4" kind="function"><name>setReceta</name></member>
+    <member refid="classrestaurant_1_1_item_pedido_1a5624d303c409f3e56efff628a3fb3543" kind="function"><name>ItemPedido</name></member>
+    <member refid="classrestaurant_1_1_item_pedido_1af75911f40c56f73d27076e6d4d9e9172" kind="function"><name>encargar</name></member>
+  </compound>
+  <compound refid="classrestaurant_1_1_item_receta" kind="class"><name>restaurant::ItemReceta</name>
+    <member refid="classrestaurant_1_1_item_receta_1aaf142c93b9b3ec777538c71f598e64a9" kind="variable"><name>p</name></member>
+    <member refid="classrestaurant_1_1_item_receta_1a3b204bafe8102f89543f73489b5117f5" kind="variable"><name>cantidad</name></member>
+    <member refid="classrestaurant_1_1_item_receta_1ab97cdc300fc81fcda77292c9cde8a425" kind="function"><name>ItemReceta</name></member>
+  </compound>
+  <compound refid="classrestaurant_1_1_pedido" kind="class"><name>restaurant::Pedido</name>
+    <member refid="classrestaurant_1_1_pedido_1a34e646106efd931a94d23cc8c5b1d280" kind="variable"><name>nextID</name></member>
+    <member refid="classrestaurant_1_1_pedido_1aed89e0baca12f4e3a9339ea43f35d4ba" kind="variable"><name>items</name></member>
+    <member refid="classrestaurant_1_1_pedido_1ae8790af69f075afb484dce2b71c8dd3b" kind="variable"><name>usuario</name></member>
+    <member refid="classrestaurant_1_1_pedido_1a9c7b73290a14c03278fe48b821f583b5" kind="variable"><name>estado</name></member>
+    <member refid="classrestaurant_1_1_pedido_1a5f85bf806e8921cc948ba22456707570" kind="variable"><name>id</name></member>
+    <member refid="classrestaurant_1_1_pedido_1ab026cd5c44ba7a5160f492072ec651c8" kind="function"><name>Pedido</name></member>
+    <member refid="classrestaurant_1_1_pedido_1afd6b2f946a530cae2335d163fc83cb8b" kind="function"><name>Pedido</name></member>
+    <member refid="classrestaurant_1_1_pedido_1ab27264339e7a20d7d4e700218ac76c81" kind="function"><name>getItems</name></member>
+    <member refid="classrestaurant_1_1_pedido_1a8065d51cad2884694a30c444c406aa13" kind="function"><name>getId</name></member>
+    <member refid="classrestaurant_1_1_pedido_1afc0039ad43cc9c8d2f031c0a6092d421" kind="function"><name>setId</name></member>
+    <member refid="classrestaurant_1_1_pedido_1a9c56f9f169c7094ea1dd35ff667beaf4" kind="function"><name>setItems</name></member>
+    <member refid="classrestaurant_1_1_pedido_1a99f52e86ff1075b3b7fed004a0806c9b" kind="function"><name>getUsuario</name></member>
+    <member refid="classrestaurant_1_1_pedido_1a18e36cdd9b69282163f2a0ef8128f8c8" kind="function"><name>setUsuario</name></member>
+    <member refid="classrestaurant_1_1_pedido_1af2772b3297cbf1bc5db084187f871777" kind="function"><name>getEstado</name></member>
+    <member refid="classrestaurant_1_1_pedido_1ae7dc62775d9fb9c5a5304038427591a7" kind="function"><name>setEstado</name></member>
+    <member refid="classrestaurant_1_1_pedido_1ac730e15c7a8ef910e8a8958f0b0d0545" kind="function"><name>agregarItem</name></member>
+    <member refid="classrestaurant_1_1_pedido_1a88bd435e67427b61b8bed2d96aa7fa76" kind="function"><name>eliminarItem</name></member>
+    <member refid="classrestaurant_1_1_pedido_1aec3c407276f4afe0e40cf1a5c52b1461" kind="function"><name>totalPedido</name></member>
+    <member refid="classrestaurant_1_1_pedido_1a61c8b8f883ffd29d55ba5db52bd73f38" kind="function"><name>completarPedido</name></member>
+    <member refid="classrestaurant_1_1_pedido_1aa599341b8236719dd93ba7bfb8dd589e" kind="function"><name>getNextID</name></member>
+    <member refid="classrestaurant_1_1_pedido_1a6f47f14c661be3c6ab9da5612db9c176" kind="function"><name>setNextID</name></member>
+  </compound>
+  <compound refid="classrestaurant_1_1_producto" kind="class"><name>restaurant::Producto</name>
+    <member refid="classrestaurant_1_1_producto_1a2f1fe17a3db491face4196c35a5a00ee" kind="variable"><name>nextID</name></member>
+    <member refid="classrestaurant_1_1_producto_1ab4f91e704885f1f7ad203c45d95718ea" kind="variable"><name>id</name></member>
+    <member refid="classrestaurant_1_1_producto_1a14d02f15b29f2b3364228ad6665def38" kind="variable"><name>stock</name></member>
+    <member refid="classrestaurant_1_1_producto_1a5c01effbe13c776666080799531391a4" kind="variable"><name>nombre</name></member>
+    <member refid="classrestaurant_1_1_producto_1a2b06ba3c656275b6e0f50904e0e7cfd8" kind="variable"><name>precioCompra</name></member>
+    <member refid="classrestaurant_1_1_producto_1acddfdec504d318cec91130f8a97cacf5" kind="function"><name>Producto</name></member>
+    <member refid="classrestaurant_1_1_producto_1a1be8fe746748bcd8a3320d9c582a40a5" kind="function"><name>getStock</name></member>
+    <member refid="classrestaurant_1_1_producto_1ab4b381133071cc6f54337ca8d17cd5ed" kind="function"><name>setStock</name></member>
+    <member refid="classrestaurant_1_1_producto_1a1d921157bedc08d5ef65d82df4a6084e" kind="function"><name>getNombre</name></member>
+    <member refid="classrestaurant_1_1_producto_1ac6282f9d4b70206eb890bd53ac5b1c66" kind="function"><name>setNombre</name></member>
+    <member refid="classrestaurant_1_1_producto_1a6767cb97caddf12d38869bafa98b89d7" kind="function"><name>getPrecioCompra</name></member>
+    <member refid="classrestaurant_1_1_producto_1a1e6e367627b2cc021682612dbead9bf4" kind="function"><name>setPrecioCompra</name></member>
+  </compound>
+  <compound refid="classrestaurant_1_1_receta" kind="class"><name>restaurant::Receta</name>
+    <member refid="classrestaurant_1_1_receta_1a65ebc5647486964b4a5eb9bca65d4adf" kind="variable"><name>ingredientes</name></member>
+    <member refid="classrestaurant_1_1_receta_1a69036c917a546ac98041aa8685028964" kind="variable"><name>nombre</name></member>
+    <member refid="classrestaurant_1_1_receta_1aaff79971f65300a6a97add1adb4ea83e" kind="variable"><name>tiempoDeCoccion</name></member>
+    <member refid="classrestaurant_1_1_receta_1ad675905b007c6a46b453942233783464" kind="variable"><name>precioVenta</name></member>
+    <member refid="classrestaurant_1_1_receta_1a02120e320e61d66e3b23cb2679f9dc7f" kind="function"><name>getPrecioVenta</name></member>
+    <member refid="classrestaurant_1_1_receta_1a0fcbbc3ff8df3685760f0b03de7c9492" kind="function"><name>setPrecioVenta</name></member>
+    <member refid="classrestaurant_1_1_receta_1abbd53d797e295fbbede4242b89d3fdf0" kind="function"><name>getNombre</name></member>
+    <member refid="classrestaurant_1_1_receta_1ae1b7473de15c4268d248a6787ae840db" kind="function"><name>setNombre</name></member>
+    <member refid="classrestaurant_1_1_receta_1a5cbe14f14c6a7a7f742bcddccff1a8bf" kind="function"><name>getTiempoDeCoccion</name></member>
+    <member refid="classrestaurant_1_1_receta_1aa5156e5ef0168c21381b0e32e9549046" kind="function"><name>setTiempoDeCoccion</name></member>
+    <member refid="classrestaurant_1_1_receta_1af16e69b4f9b54acb4e035c34fc91fb4b" kind="function"><name>addIngrediente</name></member>
+    <member refid="classrestaurant_1_1_receta_1a712db947f66ff8a6f1ffd4ff38169af1" kind="function"><name>addIngrediente</name></member>
+  </compound>
+  <compound refid="classrestaurant_1_1_sin_saldo_exception" kind="class"><name>restaurant::SinSaldoException</name>
+    <member refid="classrestaurant_1_1_sin_saldo_exception_1a0bf4f4b6a811c861231723a8499a6fd5" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classrestaurant_1_1_sin_suficientes_ingredientes_exception" kind="class"><name>restaurant::SinSuficientesIngredientesException</name>
+  </compound>
+  <compound refid="classrestaurant_1_1_stock" kind="class"><name>restaurant::Stock</name>
+    <member refid="classrestaurant_1_1_stock_1a5b90b63d7386675241f00b5f86de72a8" kind="variable"><name>stock</name></member>
+    <member refid="classrestaurant_1_1_stock_1a798ca6281e024cecd74dfc358aa66044" kind="function"><name>Stock</name></member>
+    <member refid="classrestaurant_1_1_stock_1a2893d04ee9d12326e8f2a1f2807b3eb6" kind="function"><name>agregar</name></member>
+  </compound>
+  <compound refid="classrestaurant_1_1_usuario" kind="class"><name>restaurant::Usuario</name>
+    <member refid="classrestaurant_1_1_usuario_1a60da26491da31d8407a43d9e577ec171" kind="variable"><name>nextID</name></member>
+    <member refid="classrestaurant_1_1_usuario_1a18917d39f6830c8ea07d877ae9dac3fa" kind="variable"><name>id</name></member>
+    <member refid="classrestaurant_1_1_usuario_1acacc8fc0d58abf377b70d6c20bafc454" kind="variable"><name>nombreYApellido</name></member>
+    <member refid="classrestaurant_1_1_usuario_1a1f97640a4c9014709e8dce51e07e8f47" kind="variable"><name>tipoUsuario</name></member>
+    <member refid="classrestaurant_1_1_usuario_1ac1f51aab20c23abdab57496f0eee4011" kind="variable"><name>saldoCuenta</name></member>
+    <member refid="classrestaurant_1_1_usuario_1a8b6b5aaf57e72fa77aca78857747b713" kind="variable"><name>ultimaRecarga</name></member>
+    <member refid="classrestaurant_1_1_usuario_1a72e180e420a621152b1ae2f9c9babe33" kind="variable"><name>email</name></member>
+    <member refid="classrestaurant_1_1_usuario_1a976174d8837308f58d8be96b62af9274" kind="function"><name>Usuario</name></member>
+    <member refid="classrestaurant_1_1_usuario_1a61e318e81146f727d7f797ebe0b0257f" kind="function"><name>cargarCredito</name></member>
+    <member refid="classrestaurant_1_1_usuario_1a85755404b9008fdfb439718366d4524c" kind="function"><name>descontarSaldo</name></member>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="namespacerestaurant" kind="namespace"><name>restaurant</name>
+  </compound>
+  <compound refid="_admin_ordenes_8java" kind="file"><name>AdminOrdenes.java</name>
+  </compound>
+  <compound refid="_item_menu_8java" kind="file"><name>ItemMenu.java</name>
+  </compound>
+  <compound refid="_item_pedido_8java" kind="file"><name>ItemPedido.java</name>
+  </compound>
+  <compound refid="_item_receta_8java" kind="file"><name>ItemReceta.java</name>
+  </compound>
+  <compound refid="_pedido_8java" kind="file"><name>Pedido.java</name>
+  </compound>
+  <compound refid="_producto_8java" kind="file"><name>Producto.java</name>
+  </compound>
+  <compound refid="_receta_8java" kind="file"><name>Receta.java</name>
+  </compound>
+  <compound refid="_sin_saldo_exception_8java" kind="file"><name>SinSaldoException.java</name>
+  </compound>
+  <compound refid="_sin_suficientes_ingredientes_exception_8java" kind="file"><name>SinSuficientesIngredientesException.java</name>
+  </compound>
+  <compound refid="_stock_8java" kind="file"><name>Stock.java</name>
+  </compound>
+  <compound refid="_usuario_8java" kind="file"><name>Usuario.java</name>
+  </compound>
+  <compound refid="dir_15992ee2a5c945b054d4a2974f05c5e1" kind="dir"><name>DocDeCodigo</name>
+  </compound>
+  <compound refid="dir_900352fecfec2ccd0fec88816a00a7a2" kind="dir"><name>DocDeCodigo/src/restaurant</name>
+  </compound>
+  <compound refid="dir_f61a6d0c52049c6520f44cfe1cb5e6c0" kind="dir"><name>DocDeCodigo/src</name>
+  </compound>
+</doxygenindex>

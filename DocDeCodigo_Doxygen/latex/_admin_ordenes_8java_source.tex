@@ -1,0 +1,32 @@
+\hypertarget{_admin_ordenes_8java_source}{}\doxysection{Admin\+Ordenes.\+java}
+\label{_admin_ordenes_8java_source}\index{DocDeCodigo/src/restaurant/AdminOrdenes.java@{DocDeCodigo/src/restaurant/AdminOrdenes.java}}
+\mbox{\hyperlink{_admin_ordenes_8java}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00001}\mbox{\hyperlink{namespacerestaurant}{00001}} \textcolor{keyword}{package }restaurant;}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00002}00002 \textcolor{keyword}{import} java.util.ArrayList;}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00003}00003 \textcolor{keyword}{import} java.util.List;}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00004}00004 }
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00005}\mbox{\hyperlink{classrestaurant_1_1_admin_ordenes}{00005}} \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{classrestaurant_1_1_admin_ordenes}{AdminOrdenes}} \{}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00006}00006 List<Pedido> pedidos;}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00007}00007 }
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00008}\mbox{\hyperlink{classrestaurant_1_1_admin_ordenes_af8ad00199a4ed61b6c048d6fc2c9509c}{00008}} \textcolor{keyword}{public} \mbox{\hyperlink{classrestaurant_1_1_admin_ordenes_af8ad00199a4ed61b6c048d6fc2c9509c}{AdminOrdenes}}() \{}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00009}00009     super();}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00010}00010     pedidos= \textcolor{keyword}{new} ArrayList<Pedido>();}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00011}00011 \}}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00012}00012 \textcolor{keywordtype}{void} procesar() \{}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00013}00013      }
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00014}00014 \}}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00015}00015 \textcolor{keywordtype}{int} agregar(Pedido p)  \{}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00016}00016     p.setEstado(\textcolor{stringliteral}{"{}ENCARGADO"{}});}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00017}00017     pedidos.add(p);}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00018}00018     \textcolor{keywordtype}{int} \textcolor{keywordtype}{id}=Pedido.getNextID();}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00019}00019     p.setId(\textcolor{keywordtype}{id});}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00020}00020     Pedido.setNextID(\textcolor{keywordtype}{id}+1);}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00021}00021     System.out.println(\textcolor{stringliteral}{"{}se ha generado el pedido con el id: "{}}+\textcolor{keywordtype}{id});}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00022}00022     \textcolor{keywordflow}{return} id;}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00023}00023 \}}
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00024}00024 }
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00025}00025 }
+\DoxyCodeLine{\Hypertarget{_admin_ordenes_8java_source_l00026}00026 \}}
+
+\end{DoxyCode}

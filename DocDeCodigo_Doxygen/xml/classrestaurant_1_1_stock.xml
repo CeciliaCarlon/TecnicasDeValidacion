@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classrestaurant_1_1_stock" kind="class" language="Java" prot="public">
+    <compoundname>restaurant::Stock</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classrestaurant_1_1_stock_1a5b90b63d7386675241f00b5f86de72a8" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="classrestaurant_1_1_producto" kindref="compound">Producto</ref> &gt;</type>
+        <definition>List&lt;Producto&gt; restaurant.Stock.stock</definition>
+        <argsstring></argsstring>
+        <name>stock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Stock.java" line="9" column="6" bodyfile="DocDeCodigo/src/restaurant/Stock.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrestaurant_1_1_stock_1a798ca6281e024cecd74dfc358aa66044" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>restaurant.Stock.Stock</definition>
+        <argsstring>()</argsstring>
+        <name>Stock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Stock.java" line="10" column="8" bodyfile="DocDeCodigo/src/restaurant/Stock.java" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_stock_1a2893d04ee9d12326e8f2a1f2807b3eb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.Stock.agregar</definition>
+        <argsstring>(Producto p, int cantidad)</argsstring>
+        <name>agregar</name>
+        <param>
+          <type><ref refid="classrestaurant_1_1_producto" kindref="compound">Producto</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cantidad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Stock.java" line="18" column="13" bodyfile="DocDeCodigo/src/restaurant/Stock.java" bodystart="18" bodyend="26"/>
+        <references refid="classrestaurant_1_1_producto_1a1be8fe746748bcd8a3320d9c582a40a5" compoundref="_producto_8java" startline="16" endline="18">restaurant.Producto.getStock</references>
+        <references refid="classrestaurant_1_1_producto_1ab4b381133071cc6f54337ca8d17cd5ed" compoundref="_producto_8java" startline="19" endline="21">restaurant.Producto.setStock</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DocDeCodigo/src/restaurant/Stock.java" line="8" column="7" bodyfile="DocDeCodigo/src/restaurant/Stock.java" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classrestaurant_1_1_stock_1a2893d04ee9d12326e8f2a1f2807b3eb6" prot="public" virt="non-virtual"><scope>restaurant::Stock</scope><name>agregar</name></member>
+      <member refid="classrestaurant_1_1_stock_1a5b90b63d7386675241f00b5f86de72a8" prot="package" virt="non-virtual"><scope>restaurant::Stock</scope><name>stock</name></member>
+      <member refid="classrestaurant_1_1_stock_1a798ca6281e024cecd74dfc358aa66044" prot="public" virt="non-virtual"><scope>restaurant::Stock</scope><name>Stock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

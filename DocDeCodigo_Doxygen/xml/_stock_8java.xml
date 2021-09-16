@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_stock_8java" kind="file" language="Java">
+    <compoundname>Stock.java</compoundname>
+    <innerclass refid="classrestaurant_1_1_stock" prot="public">restaurant::Stock</innerclass>
+    <innernamespace refid="namespacerestaurant">restaurant</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">restaurant;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.ArrayList;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.List;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">@brief<sp/>La<sp/>clase<sp/>se<sp/>encarga<sp/>de<sp/>administrar<sp/>el<sp/>stock<sp/>de<sp/>@class<sp/>Producto</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classrestaurant_1_1_stock" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classrestaurant_1_1_stock" kindref="compound">Stock</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">List&lt;Producto&gt;<sp/>stock;</highlight></codeline>
+<codeline lineno="10" refid="classrestaurant_1_1_stock_1a798ca6281e024cecd74dfc358aa66044" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_stock_1a798ca6281e024cecd74dfc358aa66044" kindref="member">Stock</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>stock=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList&lt;Producto&gt;();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">@param<sp/>del<sp/>tipo<sp/>@class<sp/>Producto<sp/>y<sp/>del<sp/>tipo<sp/>int</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">@brief<sp/>se<sp/>encarga<sp/>de<sp/>fijarse<sp/>si<sp/>hay<sp/>stock<sp/>del<sp/>producto<sp/>que<sp/>se<sp/>desea<sp/>agregar.<sp/>Si<sp/>lo<sp/>hay</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">incrementa<sp/>el<sp/>stock<sp/>de<sp/>este,<sp/>de<sp/>lo<sp/>contrario<sp/>lo<sp/>agrega<sp/>al<sp/>array<sp/>y<sp/>le<sp/>setea<sp/>la<sp/>cantidad</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classrestaurant_1_1_stock_1a2893d04ee9d12326e8f2a1f2807b3eb6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_stock_1a2893d04ee9d12326e8f2a1f2807b3eb6" kindref="member">agregar</ref>(<ref refid="classrestaurant_1_1_producto" kindref="compound">Producto</ref><sp/>p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cantidad)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(stock.indexOf(p)&gt;=0)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="classrestaurant_1_1_producto_1ab4b381133071cc6f54337ca8d17cd5ed" kindref="member">setStock</ref>(p.<ref refid="classrestaurant_1_1_producto_1a1be8fe746748bcd8a3320d9c582a40a5" kindref="member">getStock</ref>()+cantidad);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="classrestaurant_1_1_producto_1ab4b381133071cc6f54337ca8d17cd5ed" kindref="member">setStock</ref>(cantidad);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stock.add(p);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DocDeCodigo/src/restaurant/Stock.java"/>
+  </compounddef>
+</doxygen>

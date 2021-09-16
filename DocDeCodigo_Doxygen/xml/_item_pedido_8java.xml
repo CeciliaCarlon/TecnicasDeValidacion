@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_item_pedido_8java" kind="file" language="Java">
+    <compoundname>ItemPedido.java</compoundname>
+    <innerclass refid="classrestaurant_1_1_item_pedido" prot="public">restaurant::ItemPedido</innerclass>
+    <innernamespace refid="namespacerestaurant">restaurant</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">restaurant;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classrestaurant_1_1_item_pedido" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classrestaurant_1_1_item_pedido" kindref="compound">ItemPedido</ref><sp/>{</highlight></codeline>
+<codeline lineno="4" refid="classrestaurant_1_1_item_pedido_1a9c551ab0b8d67b84b007ab5b2624f717" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_item_pedido_1a9c551ab0b8d67b84b007ab5b2624f717" kindref="member">getCantidad</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cantidad;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="7" refid="classrestaurant_1_1_item_pedido_1af26cfb2d9c9c9d08d94471f642555c5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_item_pedido_1af26cfb2d9c9c9d08d94471f642555c5e" kindref="member">setCantidad</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cantidad)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.cantidad<sp/>=<sp/>cantidad;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10" refid="classrestaurant_1_1_item_pedido_1aca812d80c6ba61537b1cc3553293d217" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_receta" kindref="compound">Receta</ref><sp/><ref refid="classrestaurant_1_1_item_pedido_1aca812d80c6ba61537b1cc3553293d217" kindref="member">getReceta</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>receta;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13" refid="classrestaurant_1_1_item_pedido_1ab4b7fa6244e6b782167b54827f5a79f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_item_pedido_1ab4b7fa6244e6b782167b54827f5a79f4" kindref="member">setReceta</ref>(<ref refid="classrestaurant_1_1_receta" kindref="compound">Receta</ref><sp/>receta)<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.receta<sp/>=<sp/>receta;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cantidad;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="classrestaurant_1_1_receta" kindref="compound">Receta</ref><sp/>receta;</highlight></codeline>
+<codeline lineno="18" refid="classrestaurant_1_1_item_pedido_1a5624d303c409f3e56efff628a3fb3543" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_item_pedido_1a5624d303c409f3e56efff628a3fb3543" kindref="member">ItemPedido</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cantidad,<sp/><ref refid="classrestaurant_1_1_receta" kindref="compound">Receta</ref><sp/>receta)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>this.cantidad<sp/>=<sp/>cantidad;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>this.receta<sp/>=<sp/>receta;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23" refid="classrestaurant_1_1_item_pedido_1af75911f40c56f73d27076e6d4d9e9172" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_item_pedido_1af75911f40c56f73d27076e6d4d9e9172" kindref="member">encargar</ref>()<sp/>throws<sp/><ref refid="classrestaurant_1_1_sin_suficientes_ingredientes_exception" kindref="compound">SinSuficientesIngredientesException</ref><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DocDeCodigo/src/restaurant/ItemPedido.java"/>
+  </compounddef>
+</doxygen>

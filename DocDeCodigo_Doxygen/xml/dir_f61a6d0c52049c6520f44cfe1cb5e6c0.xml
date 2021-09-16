@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_f61a6d0c52049c6520f44cfe1cb5e6c0" kind="dir">
+    <compoundname>DocDeCodigo/src</compoundname>
+    <innerdir refid="dir_900352fecfec2ccd0fec88816a00a7a2">DocDeCodigo/src/restaurant</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DocDeCodigo/src/"/>
+  </compounddef>
+</doxygen>

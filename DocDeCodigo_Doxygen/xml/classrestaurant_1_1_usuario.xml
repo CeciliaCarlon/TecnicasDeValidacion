@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classrestaurant_1_1_usuario" kind="class" language="Java" prot="public">
+    <compoundname>restaurant::Usuario</compoundname>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classrestaurant_1_1_usuario_1a60da26491da31d8407a43d9e577ec171" prot="package" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int restaurant.Usuario.nextID</definition>
+        <argsstring></argsstring>
+        <name>nextID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Usuario.java" line="8" column="12" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classrestaurant_1_1_usuario_1a18917d39f6830c8ea07d877ae9dac3fa" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int restaurant.Usuario.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Usuario.java" line="9" column="5" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_usuario_1acacc8fc0d58abf377b70d6c20bafc454" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String restaurant.Usuario.nombreYApellido</definition>
+        <argsstring></argsstring>
+        <name>nombreYApellido</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Usuario.java" line="10" column="8" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_usuario_1a1f97640a4c9014709e8dce51e07e8f47" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int restaurant.Usuario.tipoUsuario</definition>
+        <argsstring></argsstring>
+        <name>tipoUsuario</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Usuario.java" line="11" column="5" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_usuario_1ac1f51aab20c23abdab57496f0eee4011" prot="package" static="no" mutable="no">
+        <type>float</type>
+        <definition>float restaurant.Usuario.saldoCuenta</definition>
+        <argsstring></argsstring>
+        <name>saldoCuenta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Usuario.java" line="12" column="7" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_usuario_1a8b6b5aaf57e72fa77aca78857747b713" prot="package" static="no" mutable="no">
+        <type>Date</type>
+        <definition>Date restaurant.Usuario.ultimaRecarga</definition>
+        <argsstring></argsstring>
+        <name>ultimaRecarga</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Usuario.java" line="13" column="6" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_usuario_1a72e180e420a621152b1ae2f9c9babe33" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String restaurant.Usuario.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Usuario.java" line="14" column="8" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrestaurant_1_1_usuario_1a976174d8837308f58d8be96b62af9274" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>restaurant.Usuario.Usuario</definition>
+        <argsstring>(String nombreYApellido, int tipoUsuario, float saldoCuenta, String email)</argsstring>
+        <name>Usuario</name>
+        <param>
+          <type>String</type>
+          <declname>nombreYApellido</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tipoUsuario</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>saldoCuenta</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Usuario.java" line="15" column="8" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="15" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_usuario_1a61e318e81146f727d7f797ebe0b0257f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.Usuario.cargarCredito</definition>
+        <argsstring>(float cuanto)</argsstring>
+        <name>cargarCredito</name>
+        <param>
+          <type>float</type>
+          <declname>cuanto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Usuario.java" line="23" column="13" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classrestaurant_1_1_usuario_1a85755404b9008fdfb439718366d4524c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float restaurant.Usuario.descontarSaldo</definition>
+        <argsstring>(float cuanto)</argsstring>
+        <name>descontarSaldo</name>
+        <param>
+          <type>float</type>
+          <declname>cuanto</declname>
+        </param>
+        <exceptions> throws <ref refid="classrestaurant_1_1_sin_saldo_exception" kindref="compound">SinSaldoException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/Usuario.java" line="32" column="7" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="32" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Date</label>
+      </node>
+      <node id="1">
+        <label>restaurant.Usuario</label>
+        <link refid="classrestaurant_1_1_usuario"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ultimaRecarga</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DocDeCodigo/src/restaurant/Usuario.java" line="7" column="7" bodyfile="DocDeCodigo/src/restaurant/Usuario.java" bodystart="7" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classrestaurant_1_1_usuario_1a61e318e81146f727d7f797ebe0b0257f" prot="public" virt="non-virtual"><scope>restaurant::Usuario</scope><name>cargarCredito</name></member>
+      <member refid="classrestaurant_1_1_usuario_1a85755404b9008fdfb439718366d4524c" prot="package" virt="non-virtual"><scope>restaurant::Usuario</scope><name>descontarSaldo</name></member>
+      <member refid="classrestaurant_1_1_usuario_1a72e180e420a621152b1ae2f9c9babe33" prot="package" virt="non-virtual"><scope>restaurant::Usuario</scope><name>email</name></member>
+      <member refid="classrestaurant_1_1_usuario_1a18917d39f6830c8ea07d877ae9dac3fa" prot="package" virt="non-virtual"><scope>restaurant::Usuario</scope><name>id</name></member>
+      <member refid="classrestaurant_1_1_usuario_1a60da26491da31d8407a43d9e577ec171" prot="package" virt="non-virtual"><scope>restaurant::Usuario</scope><name>nextID</name></member>
+      <member refid="classrestaurant_1_1_usuario_1acacc8fc0d58abf377b70d6c20bafc454" prot="package" virt="non-virtual"><scope>restaurant::Usuario</scope><name>nombreYApellido</name></member>
+      <member refid="classrestaurant_1_1_usuario_1ac1f51aab20c23abdab57496f0eee4011" prot="package" virt="non-virtual"><scope>restaurant::Usuario</scope><name>saldoCuenta</name></member>
+      <member refid="classrestaurant_1_1_usuario_1a1f97640a4c9014709e8dce51e07e8f47" prot="package" virt="non-virtual"><scope>restaurant::Usuario</scope><name>tipoUsuario</name></member>
+      <member refid="classrestaurant_1_1_usuario_1a8b6b5aaf57e72fa77aca78857747b713" prot="package" virt="non-virtual"><scope>restaurant::Usuario</scope><name>ultimaRecarga</name></member>
+      <member refid="classrestaurant_1_1_usuario_1a976174d8837308f58d8be96b62af9274" prot="public" virt="non-virtual"><scope>restaurant::Usuario</scope><name>Usuario</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

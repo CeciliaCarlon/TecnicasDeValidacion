@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_usuario_8java" kind="file" language="Java">
+    <compoundname>Usuario.java</compoundname>
+    <innerclass refid="classrestaurant_1_1_usuario" prot="public">restaurant::Usuario</innerclass>
+    <innernamespace refid="namespacerestaurant">restaurant</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">restaurant;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Date;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">@brief<sp/>Esta<sp/>clase<sp/>es<sp/>la<sp/>encargada<sp/>de<sp/>contener<sp/>los<sp/>datos<sp/>de<sp/>los<sp/>usuarios<sp/>así<sp/>como<sp/>tambien<sp/>los</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">metodos<sp/>cargarCredito<sp/>(para<sp/>incrementar<sp/>el<sp/>credito<sp/>de<sp/>este)<sp/>y<sp/>descontarSaldo<sp/>(para<sp/>disminuir<sp/>el<sp/>credito)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classrestaurant_1_1_usuario" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classrestaurant_1_1_usuario" kindref="compound">Usuario</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nextID;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">String<sp/>nombreYApellido;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tipoUsuario;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>saldoCuenta;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">Date<sp/>ultimaRecarga;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">String<sp/>email;</highlight></codeline>
+<codeline lineno="15" refid="classrestaurant_1_1_usuario_1a976174d8837308f58d8be96b62af9274" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_usuario_1a976174d8837308f58d8be96b62af9274" kindref="member">Usuario</ref>(String<sp/>nombreYApellido,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tipoUsuario,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>saldoCuenta,String<sp/>email)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>this.nombreYApellido<sp/>=<sp/>nombreYApellido;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>this.tipoUsuario<sp/>=<sp/>tipoUsuario;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>this.saldoCuenta<sp/>=<sp/>saldoCuenta;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>this.email=email;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//@param<sp/>del<sp/>tipo<sp/>float<sp/>y<sp/>es<sp/>la<sp/>cantidad<sp/>a<sp/>incrementar<sp/>del<sp/>atributo<sp/>saldoCuenta</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classrestaurant_1_1_usuario_1a61e318e81146f727d7f797ebe0b0257f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_usuario_1a61e318e81146f727d7f797ebe0b0257f" kindref="member">cargarCredito</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cuanto)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>saldoCuenta+=cuanto;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">@param<sp/>del<sp/>tipo<sp/>float<sp/>y<sp/>es<sp/>la<sp/>cantidad<sp/>a<sp/>descontar<sp/>del<sp/>atributo<sp/>saldoCuenta</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">@return<sp/>retorna<sp/>el<sp/>saldoCuenta<sp/>si<sp/>esta<sp/>no<sp/>queda<sp/>en<sp/>valor<sp/>negativo,<sp/>si<sp/>es<sp/>así</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">tira<sp/>un<sp/>@class<sp/>SinSaldoException</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>descontarSaldo(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cuanto)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_sin_saldo_exception" kindref="compound">SinSaldoException</ref><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((saldoCuenta-cuanto)&lt;0)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classrestaurant_1_1_sin_saldo_exception" kindref="compound">SinSaldoException</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>saldoCuenta-=<sp/>cuanto;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>saldoCuenta;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DocDeCodigo/src/restaurant/Usuario.java"/>
+  </compounddef>
+</doxygen>

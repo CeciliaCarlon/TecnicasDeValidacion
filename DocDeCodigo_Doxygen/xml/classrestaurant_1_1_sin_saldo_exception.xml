@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classrestaurant_1_1_sin_saldo_exception" kind="class" language="Java" prot="public">
+    <compoundname>restaurant::SinSaldoException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrestaurant_1_1_sin_saldo_exception_1a0bf4f4b6a811c861231723a8499a6fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String restaurant.SinSaldoException.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/SinSaldoException.java" line="4" column="15" bodyfile="DocDeCodigo/src/restaurant/SinSaldoException.java" bodystart="4" bodyend="4"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>restaurant.SinSaldoException</label>
+        <link refid="classrestaurant_1_1_sin_saldo_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>restaurant.SinSaldoException</label>
+        <link refid="classrestaurant_1_1_sin_saldo_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DocDeCodigo/src/restaurant/SinSaldoException.java" line="3" column="7" bodyfile="DocDeCodigo/src/restaurant/SinSaldoException.java" bodystart="3" bodyend="5"/>
+    <listofallmembers>
+      <member refid="classrestaurant_1_1_sin_saldo_exception_1a0bf4f4b6a811c861231723a8499a6fd5" prot="public" virt="non-virtual"><scope>restaurant::SinSaldoException</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

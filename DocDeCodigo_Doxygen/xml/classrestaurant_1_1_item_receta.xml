@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classrestaurant_1_1_item_receta" kind="class" language="Java" prot="public">
+    <compoundname>restaurant::ItemReceta</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classrestaurant_1_1_item_receta_1aaf142c93b9b3ec777538c71f598e64a9" prot="package" static="no" mutable="no">
+        <type><ref refid="classrestaurant_1_1_producto" kindref="compound">Producto</ref></type>
+        <definition>Producto restaurant.ItemReceta.p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemReceta.java" line="4" column="10" bodyfile="DocDeCodigo/src/restaurant/ItemReceta.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_item_receta_1a3b204bafe8102f89543f73489b5117f5" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int restaurant.ItemReceta.cantidad</definition>
+        <argsstring></argsstring>
+        <name>cantidad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemReceta.java" line="5" column="5" bodyfile="DocDeCodigo/src/restaurant/ItemReceta.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrestaurant_1_1_item_receta_1ab97cdc300fc81fcda77292c9cde8a425" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>restaurant.ItemReceta.ItemReceta</definition>
+        <argsstring>(Producto p, int cantidad)</argsstring>
+        <name>ItemReceta</name>
+        <param>
+          <type><ref refid="classrestaurant_1_1_producto" kindref="compound">Producto</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cantidad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemReceta.java" line="6" column="8" bodyfile="DocDeCodigo/src/restaurant/ItemReceta.java" bodystart="6" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>restaurant.ItemReceta</label>
+        <link refid="classrestaurant_1_1_item_receta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>restaurant.Producto</label>
+        <link refid="classrestaurant_1_1_producto"/>
+      </node>
+    </collaborationgraph>
+    <location file="DocDeCodigo/src/restaurant/ItemReceta.java" line="3" column="7" bodyfile="DocDeCodigo/src/restaurant/ItemReceta.java" bodystart="3" bodyend="12"/>
+    <listofallmembers>
+      <member refid="classrestaurant_1_1_item_receta_1a3b204bafe8102f89543f73489b5117f5" prot="package" virt="non-virtual"><scope>restaurant::ItemReceta</scope><name>cantidad</name></member>
+      <member refid="classrestaurant_1_1_item_receta_1ab97cdc300fc81fcda77292c9cde8a425" prot="public" virt="non-virtual"><scope>restaurant::ItemReceta</scope><name>ItemReceta</name></member>
+      <member refid="classrestaurant_1_1_item_receta_1aaf142c93b9b3ec777538c71f598e64a9" prot="package" virt="non-virtual"><scope>restaurant::ItemReceta</scope><name>p</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespacerestaurant" kind="namespace" language="Java">
+    <compoundname>restaurant</compoundname>
+    <innerclass refid="classrestaurant_1_1_admin_ordenes" prot="public">restaurant::AdminOrdenes</innerclass>
+    <innerclass refid="classrestaurant_1_1_item_menu" prot="public">restaurant::ItemMenu</innerclass>
+    <innerclass refid="classrestaurant_1_1_item_pedido" prot="public">restaurant::ItemPedido</innerclass>
+    <innerclass refid="classrestaurant_1_1_item_receta" prot="public">restaurant::ItemReceta</innerclass>
+    <innerclass refid="classrestaurant_1_1_pedido" prot="public">restaurant::Pedido</innerclass>
+    <innerclass refid="classrestaurant_1_1_producto" prot="public">restaurant::Producto</innerclass>
+    <innerclass refid="classrestaurant_1_1_receta" prot="public">restaurant::Receta</innerclass>
+    <innerclass refid="classrestaurant_1_1_sin_saldo_exception" prot="public">restaurant::SinSaldoException</innerclass>
+    <innerclass refid="classrestaurant_1_1_sin_suficientes_ingredientes_exception" prot="public">restaurant::SinSuficientesIngredientesException</innerclass>
+    <innerclass refid="classrestaurant_1_1_stock" prot="public">restaurant::Stock</innerclass>
+    <innerclass refid="classrestaurant_1_1_usuario" prot="public">restaurant::Usuario</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DocDeCodigo/src/restaurant/AdminOrdenes.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

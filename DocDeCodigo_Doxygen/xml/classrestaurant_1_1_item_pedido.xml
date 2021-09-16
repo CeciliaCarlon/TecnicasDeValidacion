@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classrestaurant_1_1_item_pedido" kind="class" language="Java" prot="public">
+    <compoundname>restaurant::ItemPedido</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classrestaurant_1_1_item_pedido_1a4c4e91b8fb22c33cd65b9f44f6ed93ac" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int restaurant.ItemPedido.cantidad</definition>
+        <argsstring></argsstring>
+        <name>cantidad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemPedido.java" line="16" column="5" bodyfile="DocDeCodigo/src/restaurant/ItemPedido.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_item_pedido_1a0a67503bf50ff1a70fbfa9ead43c179c" prot="package" static="no" mutable="no">
+        <type><ref refid="classrestaurant_1_1_receta" kindref="compound">Receta</ref></type>
+        <definition>Receta restaurant.ItemPedido.receta</definition>
+        <argsstring></argsstring>
+        <name>receta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemPedido.java" line="17" column="8" bodyfile="DocDeCodigo/src/restaurant/ItemPedido.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrestaurant_1_1_item_pedido_1a9c551ab0b8d67b84b007ab5b2624f717" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int restaurant.ItemPedido.getCantidad</definition>
+        <argsstring>()</argsstring>
+        <name>getCantidad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemPedido.java" line="4" column="12" bodyfile="DocDeCodigo/src/restaurant/ItemPedido.java" bodystart="4" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_item_pedido_1af26cfb2d9c9c9d08d94471f642555c5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.ItemPedido.setCantidad</definition>
+        <argsstring>(int cantidad)</argsstring>
+        <name>setCantidad</name>
+        <param>
+          <type>int</type>
+          <declname>cantidad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemPedido.java" line="7" column="13" bodyfile="DocDeCodigo/src/restaurant/ItemPedido.java" bodystart="7" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_item_pedido_1aca812d80c6ba61537b1cc3553293d217" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classrestaurant_1_1_receta" kindref="compound">Receta</ref></type>
+        <definition>Receta restaurant.ItemPedido.getReceta</definition>
+        <argsstring>()</argsstring>
+        <name>getReceta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemPedido.java" line="10" column="15" bodyfile="DocDeCodigo/src/restaurant/ItemPedido.java" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_item_pedido_1ab4b7fa6244e6b782167b54827f5a79f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.ItemPedido.setReceta</definition>
+        <argsstring>(Receta receta)</argsstring>
+        <name>setReceta</name>
+        <param>
+          <type><ref refid="classrestaurant_1_1_receta" kindref="compound">Receta</ref></type>
+          <declname>receta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemPedido.java" line="13" column="13" bodyfile="DocDeCodigo/src/restaurant/ItemPedido.java" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_item_pedido_1a5624d303c409f3e56efff628a3fb3543" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>restaurant.ItemPedido.ItemPedido</definition>
+        <argsstring>(int cantidad, Receta receta)</argsstring>
+        <name>ItemPedido</name>
+        <param>
+          <type>int</type>
+          <declname>cantidad</declname>
+        </param>
+        <param>
+          <type><ref refid="classrestaurant_1_1_receta" kindref="compound">Receta</ref></type>
+          <declname>receta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemPedido.java" line="18" column="8" bodyfile="DocDeCodigo/src/restaurant/ItemPedido.java" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_item_pedido_1af75911f40c56f73d27076e6d4d9e9172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.ItemPedido.encargar</definition>
+        <argsstring>()</argsstring>
+        <name>encargar</name>
+        <exceptions> throws <ref refid="classrestaurant_1_1_sin_suficientes_ingredientes_exception" kindref="compound">SinSuficientesIngredientesException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/ItemPedido.java" line="23" column="13" bodyfile="DocDeCodigo/src/restaurant/ItemPedido.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>restaurant.ItemPedido</label>
+        <link refid="classrestaurant_1_1_item_pedido"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>receta</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>restaurant.Receta</label>
+        <link refid="classrestaurant_1_1_receta"/>
+      </node>
+    </collaborationgraph>
+    <location file="DocDeCodigo/src/restaurant/ItemPedido.java" line="3" column="7" bodyfile="DocDeCodigo/src/restaurant/ItemPedido.java" bodystart="3" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classrestaurant_1_1_item_pedido_1a4c4e91b8fb22c33cd65b9f44f6ed93ac" prot="package" virt="non-virtual"><scope>restaurant::ItemPedido</scope><name>cantidad</name></member>
+      <member refid="classrestaurant_1_1_item_pedido_1af75911f40c56f73d27076e6d4d9e9172" prot="public" virt="non-virtual"><scope>restaurant::ItemPedido</scope><name>encargar</name></member>
+      <member refid="classrestaurant_1_1_item_pedido_1a9c551ab0b8d67b84b007ab5b2624f717" prot="public" virt="non-virtual"><scope>restaurant::ItemPedido</scope><name>getCantidad</name></member>
+      <member refid="classrestaurant_1_1_item_pedido_1aca812d80c6ba61537b1cc3553293d217" prot="public" virt="non-virtual"><scope>restaurant::ItemPedido</scope><name>getReceta</name></member>
+      <member refid="classrestaurant_1_1_item_pedido_1a5624d303c409f3e56efff628a3fb3543" prot="public" virt="non-virtual"><scope>restaurant::ItemPedido</scope><name>ItemPedido</name></member>
+      <member refid="classrestaurant_1_1_item_pedido_1a0a67503bf50ff1a70fbfa9ead43c179c" prot="package" virt="non-virtual"><scope>restaurant::ItemPedido</scope><name>receta</name></member>
+      <member refid="classrestaurant_1_1_item_pedido_1af26cfb2d9c9c9d08d94471f642555c5e" prot="public" virt="non-virtual"><scope>restaurant::ItemPedido</scope><name>setCantidad</name></member>
+      <member refid="classrestaurant_1_1_item_pedido_1ab4b7fa6244e6b782167b54827f5a79f4" prot="public" virt="non-virtual"><scope>restaurant::ItemPedido</scope><name>setReceta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

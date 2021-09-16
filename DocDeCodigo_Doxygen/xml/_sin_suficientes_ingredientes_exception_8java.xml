@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_sin_suficientes_ingredientes_exception_8java" kind="file" language="Java">
+    <compoundname>SinSuficientesIngredientesException.java</compoundname>
+    <innerclass refid="classrestaurant_1_1_sin_suficientes_ingredientes_exception" prot="public">restaurant::SinSuficientesIngredientesException</innerclass>
+    <innernamespace refid="namespacerestaurant">restaurant</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">restaurant;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classrestaurant_1_1_sin_suficientes_ingredientes_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classrestaurant_1_1_sin_suficientes_ingredientes_exception" kindref="compound">SinSuficientesIngredientesException</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DocDeCodigo/src/restaurant/SinSuficientesIngredientesException.java"/>
+  </compounddef>
+</doxygen>

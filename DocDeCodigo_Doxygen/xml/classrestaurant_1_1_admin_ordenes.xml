@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classrestaurant_1_1_admin_ordenes" kind="class" language="Java" prot="public">
+    <compoundname>restaurant::AdminOrdenes</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classrestaurant_1_1_admin_ordenes_1a3bed960fbe4ce618861972d88b6a27c3" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="classrestaurant_1_1_pedido" kindref="compound">Pedido</ref> &gt;</type>
+        <definition>List&lt;Pedido&gt; restaurant.AdminOrdenes.pedidos</definition>
+        <argsstring></argsstring>
+        <name>pedidos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/AdminOrdenes.java" line="6" column="6" bodyfile="DocDeCodigo/src/restaurant/AdminOrdenes.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrestaurant_1_1_admin_ordenes_1af8ad00199a4ed61b6c048d6fc2c9509c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>restaurant.AdminOrdenes.AdminOrdenes</definition>
+        <argsstring>()</argsstring>
+        <name>AdminOrdenes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/AdminOrdenes.java" line="8" column="8" bodyfile="DocDeCodigo/src/restaurant/AdminOrdenes.java" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classrestaurant_1_1_admin_ordenes_1aa30f327cc795f6f5421af8d5a5309c60" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.AdminOrdenes.procesar</definition>
+        <argsstring>()</argsstring>
+        <name>procesar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/AdminOrdenes.java" line="12" column="6" bodyfile="DocDeCodigo/src/restaurant/AdminOrdenes.java" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_admin_ordenes_1a4ad7a9e2518aa6490fe111ad229a1563" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int restaurant.AdminOrdenes.agregar</definition>
+        <argsstring>(Pedido p)</argsstring>
+        <name>agregar</name>
+        <param>
+          <type><ref refid="classrestaurant_1_1_pedido" kindref="compound">Pedido</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DocDeCodigo/src/restaurant/AdminOrdenes.java" line="15" column="5" bodyfile="DocDeCodigo/src/restaurant/AdminOrdenes.java" bodystart="15" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DocDeCodigo/src/restaurant/AdminOrdenes.java" line="5" column="7" bodyfile="DocDeCodigo/src/restaurant/AdminOrdenes.java" bodystart="5" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classrestaurant_1_1_admin_ordenes_1af8ad00199a4ed61b6c048d6fc2c9509c" prot="public" virt="non-virtual"><scope>restaurant::AdminOrdenes</scope><name>AdminOrdenes</name></member>
+      <member refid="classrestaurant_1_1_admin_ordenes_1a4ad7a9e2518aa6490fe111ad229a1563" prot="package" virt="non-virtual"><scope>restaurant::AdminOrdenes</scope><name>agregar</name></member>
+      <member refid="classrestaurant_1_1_admin_ordenes_1a3bed960fbe4ce618861972d88b6a27c3" prot="package" virt="non-virtual"><scope>restaurant::AdminOrdenes</scope><name>pedidos</name></member>
+      <member refid="classrestaurant_1_1_admin_ordenes_1aa30f327cc795f6f5421af8d5a5309c60" prot="package" virt="non-virtual"><scope>restaurant::AdminOrdenes</scope><name>procesar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

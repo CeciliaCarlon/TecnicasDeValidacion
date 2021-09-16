@@ -1,0 +1,106 @@
+\hypertarget{_pedido_8java_source}{}\doxysection{Pedido.\+java}
+\label{_pedido_8java_source}\index{DocDeCodigo/src/restaurant/Pedido.java@{DocDeCodigo/src/restaurant/Pedido.java}}
+\mbox{\hyperlink{_pedido_8java}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00001}00001 \textcolor{keyword}{package }restaurant;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00002}00002 \textcolor{keyword}{import} java.util.List;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00003}00003 \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00004}00004 \textcolor{comment}{@brief clase encargada de contener los datos de pedidos}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00005}00005 \textcolor{comment}{*/}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00006}\mbox{\hyperlink{classrestaurant_1_1_pedido}{00006}} \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{classrestaurant_1_1_pedido}{Pedido}} \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00007}00007     \textcolor{keyword}{static} \textcolor{keywordtype}{int} nextID=0;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00008}00008     List<ItemPedido> items;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00009}00009     \mbox{\hyperlink{classrestaurant_1_1_usuario}{Usuario}} usuario;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00010}00010     String estado;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00011}00011     \textcolor{keywordtype}{int} id;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00012}\mbox{\hyperlink{classrestaurant_1_1_pedido_ab026cd5c44ba7a5160f492072ec651c8}{00012}}     \textcolor{keyword}{public} \mbox{\hyperlink{classrestaurant_1_1_pedido_ab026cd5c44ba7a5160f492072ec651c8}{Pedido}}() \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00013}00013         super();}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00014}00014         this.items = items;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00015}00015         this.usuario = usuario;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00016}00016     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00017}\mbox{\hyperlink{classrestaurant_1_1_pedido_afd6b2f946a530cae2335d163fc83cb8b}{00017}}     \textcolor{keyword}{public} \mbox{\hyperlink{classrestaurant_1_1_pedido_afd6b2f946a530cae2335d163fc83cb8b}{Pedido}}(List<ItemPedido> items, \mbox{\hyperlink{classrestaurant_1_1_usuario}{Usuario}} usuario) \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00018}00018         super();}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00019}00019         this.items = items;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00020}00020         this.usuario = usuario;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00021}00021         estado=\textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00022}00022     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00023}00023     \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00024}00024 \textcolor{comment}{    @param del tipo @class ItemPedido}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00025}00025 \textcolor{comment}{    @brief el metodo chequea que el estado sea null, si es así los setea en "{}ABIERTO"{}}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00026}00026 \textcolor{comment}{    y luego agrega el item pasado por parametro a la lista items}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00027}00027 \textcolor{comment}{    */}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00028}00028     \textcolor{keywordtype}{void} agregarItem(\mbox{\hyperlink{classrestaurant_1_1_item_pedido}{ItemPedido}} item) \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00029}00029         \textcolor{keywordflow}{if}(estado==\textcolor{keyword}{null})}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00030}00030             estado=\textcolor{stringliteral}{"{}ABIERTO"{}};}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00031}00031         items.add(item);}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00032}00032     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00033}00033     \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00034}00034 \textcolor{comment}{    @param del tipo @class ItemPedido}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00035}00035 \textcolor{comment}{    @brief el metodo remueve de la lista items el item pasado por parametro}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00036}00036 \textcolor{comment}{    */}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00037}00037     \textcolor{keywordtype}{void} eliminarItem(ItemPedido item) \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00038}00038         items.remove(item);}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00039}00039     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00040}00040     \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00041}00041 \textcolor{comment}{    @return del tipo float que es el total pedido}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00042}00042 \textcolor{comment}{    @brief el metodo crea un float para el total y recorre con un for los items del atributo}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00043}00043 \textcolor{comment}{    para obtener la cantidad y multiplicarlo por el precio de venta de este y así sumarlo al total}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00044}00044 \textcolor{comment}{    */}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00045}00045     \textcolor{keywordtype}{float} totalPedido() \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00046}00046         \textcolor{keywordtype}{float}  acum=0.0f;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00047}00047         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0;i<items.size();i++) \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00048}00048             acum+=items.get(i).cantidad*items.get(i).getReceta().getPrecioVenta();}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00049}00049         \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00050}00050         \textcolor{keywordflow}{return} acum;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00051}00051     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00052}00052     \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00053}00053 \textcolor{comment}{    @brief el metodo invoca a la funcion totalPedido y se lo descuenta al usuario dueño del pedido.}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00054}00054 \textcolor{comment}{    Posteriormente setea el estado en "{}ENVIADO"{}. Si ocurre un error ejecuta class SinSaldoException}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00055}00055 \textcolor{comment}{    */}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00056}00056     \textcolor{keywordtype}{void} completarPedido() \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00057}00057         \textcolor{keywordtype}{float} total=totalPedido();}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00058}00058         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00059}00059             this.\mbox{\hyperlink{classrestaurant_1_1_pedido_a99f52e86ff1075b3b7fed004a0806c9b}{getUsuario}}().descontarSaldo(total);}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00060}00060             this.\mbox{\hyperlink{classrestaurant_1_1_pedido_ae7dc62775d9fb9c5a5304038427591a7}{setEstado}}(\textcolor{stringliteral}{"{}ENVIADO"{}});}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00061}00061         \} \textcolor{keywordflow}{catch} (SinSaldoException e) \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00062}00062             System.out.println(e);}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00063}00063         \} \textcolor{keywordflow}{finally} \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00064}00064 }
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00065}00065         \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00066}00066 }
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00067}00067     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00068}00068     \textcolor{comment}{//@brief metodos set y get de los atributos}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00069}\mbox{\hyperlink{classrestaurant_1_1_pedido_ab27264339e7a20d7d4e700218ac76c81}{00069}}     \textcolor{keyword}{public} List<ItemPedido> \mbox{\hyperlink{classrestaurant_1_1_pedido_ab27264339e7a20d7d4e700218ac76c81}{getItems}}() \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00070}00070         \textcolor{keywordflow}{return} items;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00071}00071     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00072}\mbox{\hyperlink{classrestaurant_1_1_pedido_aa599341b8236719dd93ba7bfb8dd589e}{00072}}     \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keywordtype}{int} \mbox{\hyperlink{classrestaurant_1_1_pedido_aa599341b8236719dd93ba7bfb8dd589e}{getNextID}}() \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00073}00073         \textcolor{keywordflow}{return} nextID;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00074}00074     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00075}\mbox{\hyperlink{classrestaurant_1_1_pedido_a6f47f14c661be3c6ab9da5612db9c176}{00075}}     \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_pedido_a6f47f14c661be3c6ab9da5612db9c176}{setNextID}}(\textcolor{keywordtype}{int} nextID) \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00076}00076         \mbox{\hyperlink{classrestaurant_1_1_pedido}{Pedido}}.nextID = nextID;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00077}00077     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00078}\mbox{\hyperlink{classrestaurant_1_1_pedido_a8065d51cad2884694a30c444c406aa13}{00078}}     \textcolor{keyword}{public} \textcolor{keywordtype}{int} \mbox{\hyperlink{classrestaurant_1_1_pedido_a8065d51cad2884694a30c444c406aa13}{getId}}() \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00079}00079         \textcolor{keywordflow}{return} id;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00080}00080     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00081}\mbox{\hyperlink{classrestaurant_1_1_pedido_afc0039ad43cc9c8d2f031c0a6092d421}{00081}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_pedido_afc0039ad43cc9c8d2f031c0a6092d421}{setId}}(\textcolor{keywordtype}{int} \textcolor{keywordtype}{id}) \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00082}00082         this.\textcolor{keywordtype}{id} = id;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00083}00083     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00084}\mbox{\hyperlink{classrestaurant_1_1_pedido_a9c56f9f169c7094ea1dd35ff667beaf4}{00084}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_pedido_a9c56f9f169c7094ea1dd35ff667beaf4}{setItems}}(List<ItemPedido> items) \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00085}00085         this.items = items;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00086}00086     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00087}\mbox{\hyperlink{classrestaurant_1_1_pedido_a99f52e86ff1075b3b7fed004a0806c9b}{00087}}     \textcolor{keyword}{public} \mbox{\hyperlink{classrestaurant_1_1_usuario}{Usuario}} \mbox{\hyperlink{classrestaurant_1_1_pedido_a99f52e86ff1075b3b7fed004a0806c9b}{getUsuario}}() \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00088}00088         \textcolor{keywordflow}{return} usuario;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00089}00089     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00090}\mbox{\hyperlink{classrestaurant_1_1_pedido_a18e36cdd9b69282163f2a0ef8128f8c8}{00090}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_pedido_a18e36cdd9b69282163f2a0ef8128f8c8}{setUsuario}}(\mbox{\hyperlink{classrestaurant_1_1_usuario}{Usuario}} usuario) \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00091}00091         this.usuario = usuario;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00092}00092     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00093}\mbox{\hyperlink{classrestaurant_1_1_pedido_af2772b3297cbf1bc5db084187f871777}{00093}}     \textcolor{keyword}{public} String \mbox{\hyperlink{classrestaurant_1_1_pedido_af2772b3297cbf1bc5db084187f871777}{getEstado}}() \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00094}00094         \textcolor{keywordflow}{return} estado;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00095}00095     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00096}\mbox{\hyperlink{classrestaurant_1_1_pedido_ae7dc62775d9fb9c5a5304038427591a7}{00096}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classrestaurant_1_1_pedido_ae7dc62775d9fb9c5a5304038427591a7}{setEstado}}(String estado) \{}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00097}00097         this.estado = estado;}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00098}00098     \}}
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00099}00099 }
+\DoxyCodeLine{\Hypertarget{_pedido_8java_source_l00100}00100 \}}
+
+\end{DoxyCode}
